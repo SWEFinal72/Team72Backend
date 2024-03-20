@@ -1,0 +1,16 @@
+20240314	09:40:07	51dda479-ad39-46e8-85db-e840be0a2263	SyntaxError: Expected double-quoted property name in JSON at position 56	POST	/users	undefined
+20240314	09:43:32	01a1a36a-0537-48de-a8d5-806b025bfa42	SyntaxError: Expected ',' or '}' after property value in JSON at position 250	PATCH	/users	undefined
+20240314	09:44:08	b52776b8-dc87-4dd8-9f41-15d6534fd795	SyntaxError: Expected ',' or '}' after property value in JSON at position 250	PATCH	/users	undefined
+20240314	10:15:39	0b429a5c-a1b2-4331-aa88-5946ac294b2c	SyntaxError: Expected double-quoted property name in JSON at position 145	PATCH	/users	undefined
+20240314	10:16:14	33cbd3da-505c-4cb4-8089-33c1cf62dede	SyntaxError: Bad control character in string literal in JSON at position 17	PATCH	/users	undefined
+20240314	10:18:05	158c6964-9f46-4df5-a627-e267bbf36065	SyntaxError: Unexpected token '"', ..."
+        "_id": "65"... is not valid JSON	DELETE	/users	undefined
+20240314	10:18:10	a8020e89-818a-4b0f-8131-3e9ccf7dd2f4	SyntaxError: Unexpected token '"', ..."
+        "_id": "65"... is not valid JSON	DELETE	/users	undefined
+20240314	10:18:13	3afc60ef-5361-4b61-bc94-9f2452ef44c3	SyntaxError: Unexpected token '"', ..."
+        "id": "65f"... is not valid JSON	DELETE	/users	undefined
+20240314	11:02:46	769ef68b-433c-45cc-a735-64635bc6925f	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b13" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240314	11:03:00	2f4b5aeb-7af7-4d46-9e29-6f5c4a0ce20e	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b13" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240314	11:24:35	54c9d935-daba-4a6b-9204-4ba11de4f665	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
+20240314	11:24:37	f0768b47-0f87-47c5-b131-9eccab7f1901	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
+20240318	14:24:27	fed70e47-72e1-4588-be76-16dc34c6f3cb	SyntaxError: Expected ',' or '}' after property value in JSON at position 79	POST	/users	undefined
