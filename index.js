@@ -33,6 +33,7 @@ app.use("/", express.static(path.join(__dirname, "/public")));
 // Get all cars
 app.use("/", require("./routes/root.js")); 
 app.use("/users", require("./routes/userRoutes.js"));
+app.use("/cars", require("./routes/carsRoutes.js"));
 // this is where the url for cars goes
 
 

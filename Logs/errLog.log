@@ -14,3 +14,7 @@
 20240314	11:24:35	54c9d935-daba-4a6b-9204-4ba11de4f665	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
 20240314	11:24:37	f0768b47-0f87-47c5-b131-9eccab7f1901	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
 20240318	14:24:27	fed70e47-72e1-4588-be76-16dc34c6f3cb	SyntaxError: Expected ',' or '}' after property value in JSON at position 79	POST	/users	undefined
+20240320	16:07:31	3eff6149-0d8a-4ad2-a49d-d36cf85336e8	ObjectParameterError: Parameter "obj" to Document() must be an object, got "Honda" (type string)	POST	/cars	undefined
+20240320	16:28:07	073967f1-5ede-4652-bd55-95da5445a945	ReferenceError: model is not defined	POST	/cars	undefined
+20240320	16:33:57	797b56c8-1418-40c9-ae85-e642f8a02361	ReferenceError: brand is not defined	POST	/cars	undefined
+20240320	16:34:21	dd08be5a-0040-4e1a-999c-828a0461c9ab	ReferenceError: brand is not defined	POST	/cars	undefined
