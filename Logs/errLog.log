@@ -18,3 +18,25 @@
 20240320	16:28:07	073967f1-5ede-4652-bd55-95da5445a945	ReferenceError: model is not defined	POST	/cars	undefined
 20240320	16:33:57	797b56c8-1418-40c9-ae85-e642f8a02361	ReferenceError: brand is not defined	POST	/cars	undefined
 20240320	16:34:21	dd08be5a-0040-4e1a-999c-828a0461c9ab	ReferenceError: brand is not defined	POST	/cars	undefined
+20240325	15:27:20	94d4bf12-e75c-42f5-9b27-aed1768bf4a2	SyntaxError: Unexpected end of JSON input	GET	/cars	undefined
+20240325	15:27:42	b626c38f-0ffe-4674-a016-1db8cb877109	SyntaxError: Unexpected end of JSON input	GET	/cars	undefined
+20240325	15:29:30	7f859bda-70b4-4ae8-9fae-bf5d943de9e0	SyntaxError: Unexpected token '}', ..."Info":
+
+}
+
+
+" is not valid JSON	GET	/cars	undefined
+20240325	15:29:50	1d572758-8f3e-4033-9e48-dccdf6e34d8f	SyntaxError: Unexpected end of JSON input	GET	/cars	undefined
+20240326	20:14:53	d7027479-237f-4531-9fd2-f0387ee9314e	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:17:04	d451071d-5b60-4630-903d-036c41d0de9c	CastError: Cast to ObjectId failed for value "11" (type string) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:17:11	d70115a8-c1e8-41aa-a464-e5094fdaf991	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:24:41	5019b2b4-ecba-4a46-aa32-a3f27c3c2fbc	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:24:58	91524ed6-e748-493f-9b63-eb459bdf0262	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:26:37	1097ab56-2643-43db-80a9-77f5e3bba80b	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:27:49	a157599f-8c8c-4f9d-81c8-cd512aac2084	SyntaxError: Expected ':' after property name in JSON at position 16 (line 3 column 1)	GET	/cars	undefined
+20240326	20:28:53	92941141-ac5f-4c37-9bfd-f268f342a758	ReferenceError: user is not defined	DELETE	/cars	undefined
+20240326	20:30:59	12e7db61-0c90-41be-a579-f38083796dee	ReferenceError: user is not defined	DELETE	/cars	undefined
+20240326	20:32:23	8cefc5e4-bb3e-4cdc-bb39-2e450c046c18	ReferenceError: user is not defined	DELETE	/cars	undefined
+20240326	20:35:42	45a5f91d-16e1-4f9b-99ea-80e2a83c226e	CastError: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "Car"	DELETE	/cars	undefined
+20240326	20:46:04	6324da35-4700-494c-84a1-c7e9922a666c	TypeError: car.save is not a function	PATCH	/cars	undefined
+20240326	20:46:25	bcf39b24-2fd2-4182-8198-a70e1de0c1b8	TypeError: car.save is not a function	PATCH	/cars	undefined

@@ -31,7 +31,7 @@ const createNewCar = asyncHandler(async (req, res) => {
     
     // For sake of being able to confirm car is already in database and avoid confusion there will be a check for duplicate cars
     // If car-brand and model of car combo are the same then it is considered a duplicate
-    const duplicate = await Car.findOne({"carInfo.car-brand": carInfo["car-brand"], "carInfo.model": carInfo["model"]}).lean().exec();
+    const duplicate = await Car.findOne({"carInfo.car-brand": carInfo[0]["car-brand"], "carInfo.model": carInfo[0]["model"]}).lean().exec();
 
     if (duplicate){
         return res.status(409).json({ message: 'Duplicate car found'});
@@ -58,14 +58,22 @@ const createNewCar = asyncHandler(async (req, res) => {
 // route: PATCH /cars
 // acess: ?
 const updateCar = asyncHandler(async (req, res) => {
-    const {carID, user, carInfo, rented} = req.body;
+    const {id, user, carInfo, rented} = req.body;
     
     // Confim data is present
-    if (!carID || !carInfo || !rented){
-        return res.status(400).json({ message: 'All fields are required'});
-    }
+    // if (!carID || carInfo[0]["car-brand"] || carInfo[0]["model"] ||  carInfo[0]["miles"]   || carInfo[0]["location"]  ||
+    // carInfo[0]["cost-mile"] || carInfo[0]["cost-day"]|| carInfo[0]["pickup"] || rented){
 
-    const car = await Car.findById(carID).lean().exec();
+    //     return res.status(400).json({ message: 'All fields are required'});
+    // }
+
+    // if (!carID || !carInfo || !rented){
+    //     return res.status(400).json({ message: 'All fields are required'});
+    // }
+
+    // canging carID to id
+
+    const car = await Car.findById(id).lean().exec();
 
     if (!car){
         return res.status(400).json({ message: 'Car not found'});
@@ -74,7 +82,7 @@ const updateCar = asyncHandler(async (req, res) => {
     // check for duplicate
     const duplicate = await Car.findOne({"carInfo.car-brand": carInfo["car-brand"], "carInfo.model": carInfo["model"]}).lean().exec();
     // Allow updates to the orginial car
-    if (duplicate && duplicate?._id.toString() !== carID){
+    if (duplicate && duplicate?._id.toString() !== id){
         return res.status(409).json({ message: 'Duplicate car'});
     }
 
@@ -93,19 +101,21 @@ const updateCar = asyncHandler(async (req, res) => {
 // route: DELETE /cars
 // acess: ?
 const deleteCar = asyncHandler(async (req, res) => {
-    const {carID} = req.body;
+// changingin instances of carID to id
 
-    if (!carID){
+    const {id} = req.body;
+
+    if (!id){
         return res.status(400).json({ message: 'Car ID is required'});
     }
 
-    const userReservationOnCar = await Car.findOne(user).lean().exec();
+    // const userReservationOnCar = await Car.findOne(user).lean().exec();
 
-    if (userReservationOnCar){
-        return res.status(400).json({ message: 'Car is currently under a reservation, cannot delete'});
-    }
+    // if (userReservationOnCar){
+    //     return res.status(400).json({ message: 'Car is currently under a reservation, cannot delete'});
+    // }
 
-    const car = await Car.findByIdAndDelete(carID).exec();
+    const car = await Car.findByIdAndDelete(id).exec();
 
     if(!car){
         return res.status(400).json({ message: 'Car not found'});
