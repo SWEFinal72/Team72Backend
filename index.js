@@ -34,6 +34,8 @@ app.use("/", express.static(path.join(__dirname, "/public")));
 app.use("/", require("./routes/root.js")); 
 app.use("/users", require("./routes/userRoutes.js"));
 // this is where the url for cars goes
+app.use("/cars", require("./routes/carsRoutes.js"));
+
 
 
 //Handle 404
