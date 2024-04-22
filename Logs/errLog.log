@@ -40,3 +40,4 @@
 20240326	20:35:42	45a5f91d-16e1-4f9b-99ea-80e2a83c226e	CastError: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "Car"	DELETE	/cars	undefined
 20240326	20:46:04	6324da35-4700-494c-84a1-c7e9922a666c	TypeError: car.save is not a function	PATCH	/cars	undefined
 20240326	20:46:25	bcf39b24-2fd2-4182-8198-a70e1de0c1b8	TypeError: car.save is not a function	PATCH	/cars	undefined
+20240422	16:01:32	5ddd844e-6a93-4573-9a4c-0eefedf851f6	SyntaxError: Unexpected end of JSON input	GET	/users	undefined

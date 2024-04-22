@@ -289,3 +289,11 @@
 20240404	18:21:23	8716c71a-3954-43ce-a0e4-366298c4b7ac	POST	/cars	undefined
 20240404	18:21:44	d315dd19-cb97-4594-a397-be3ccc9b29e2	POST	/cars	undefined
 20240404	18:28:39	ee49490e-73b4-42a8-b99a-37b16655d80a	GET	/cars	undefined
+20240422	16:00:21	42e8fa98-cbc2-42bd-a23c-de6616f25d7c	GET	/user	undefined
+20240422	16:00:49	8d9ed310-a79f-4c72-b26a-6f56f72c02fc	GET	/users	undefined
+20240422	16:01:32	c65afb04-b3fd-4118-82c0-498ff39bf6ac	GET	/users	undefined
+20240422	16:02:46	52ce20ed-42d6-49f3-9186-5f6031fb7390	GET	/users	undefined
+20240422	16:03:02	90c7b308-04e2-4b8f-993a-c239bd75c630	GET	/cars	undefined
+20240422	16:05:06	0aafdb2a-19ff-480a-814a-a71c7405b9da	GET	/auth	undefined
+20240422	16:05:12	b67f12d9-fcaa-40d6-9f2f-ce7bbc138130	GET	/cars	undefined
+20240422	16:06:55	aa1780c4-49e8-404f-9153-4911b7c36595	POST	/cars	undefined
