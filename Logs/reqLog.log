@@ -136,3 +136,6 @@
 20240318	14:24:27	81f00be2-02e4-4b8d-b988-dd3d15a38baf	POST	/users	undefined
 20240318	14:24:33	c2d1ef6e-4554-4396-9c43-8decb953cc69	POST	/users	undefined
 20240318	14:24:38	0d0dee13-234a-46f5-ab08-620937efb825	GET	/users	undefined
+20240422	16:31:14	c8900407-50a7-43a5-94d0-12124a3e7dd7	GET	/users	undefined
+20240422	16:32:49	00e2e9af-314a-4b6b-9c29-bdc176c8ee68	POST	/users	undefined
+20240422	16:32:53	80dbcefa-9daa-4ea3-8689-8cf0c7dd22d1	GET	/users	undefined
