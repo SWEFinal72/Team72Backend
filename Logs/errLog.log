@@ -14,3 +14,18 @@
 20240314	11:24:35	54c9d935-daba-4a6b-9204-4ba11de4f665	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
 20240314	11:24:37	f0768b47-0f87-47c5-b131-9eccab7f1901	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
 20240318	14:24:27	fed70e47-72e1-4588-be76-16dc34c6f3cb	SyntaxError: Expected ',' or '}' after property value in JSON at position 79	POST	/users	undefined
+20240420	12:25:17	48994d1f-0482-427f-b51d-2a317def12eb	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240420	12:26:21	d16e2418-2ef6-4da0-99fe-b87e4c04b375	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240420	12:29:33	ec8c6b22-d360-4e90-bb97-0aea964561de	ValidationError: User validation failed: roles.0: `Manager` is not a valid enum value for path `roles.0`.	PATCH	/users	http://localhost:3001
+20240420	12:34:12	e6215c45-f271-480b-a08e-cefd183d9b89	ValidationError: User validation failed: roles.0: `Employee` is not a valid enum value for path `roles.0`.	PATCH	/users	http://localhost:3001
+20240420	15:53:13	eee34a70-0561-4d4a-b130-1ed53687dea1	SyntaxError: Expected double-quoted property name in JSON at position 412	GET	/cars	undefined
+20240420	15:55:13	8cae2f4e-8b08-4714-9eef-06bec624ff83	SyntaxError: Expected double-quoted property name in JSON at position 259	POST	/cars	undefined
+20240420	15:58:46	87071789-caa8-497e-b629-86f79106b731	TypeError: Cannot read properties of undefined (reading '0')	POST	/cars	http://localhost:3001
+20240420	15:59:31	6f79dd13-4a9f-48d6-b8b8-4c5ad628890f	TypeError: Cannot read properties of undefined (reading '0')	POST	/cars	http://localhost:3001
+20240420	17:13:07	f34e9be8-67ed-4942-9762-75870eaa39ce	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
+20240420	17:14:52	d51dbe64-b6f5-45fc-9088-9c1f669c0720	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
+20240420	17:24:00	add349f4-cf28-4160-bba9-a476ab106d4f	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
+20240420	17:27:42	c8dbded0-2ab7-46ea-99ce-a8cf7b6d8b6c	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
+20240420	17:32:49	895dbcfb-3968-4db2-9baa-9b8b50b05361	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
+20240420	17:36:20	3844086a-a8fc-4ea1-af69-2b2e00d95735	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
+20240420	18:47:35	5f02ff42-0854-4daf-b3d5-36a926b115b0	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
