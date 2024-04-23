@@ -41,3 +41,6 @@
 20240326	20:46:04	6324da35-4700-494c-84a1-c7e9922a666c	TypeError: car.save is not a function	PATCH	/cars	undefined
 20240326	20:46:25	bcf39b24-2fd2-4182-8198-a70e1de0c1b8	TypeError: car.save is not a function	PATCH	/cars	undefined
 20240422	16:01:32	5ddd844e-6a93-4573-9a4c-0eefedf851f6	SyntaxError: Unexpected end of JSON input	GET	/users	undefined
+20240423	12:24:17	ae71b312-aeb5-4926-bdcf-6e08edb60337	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240423	12:24:17	cae38085-ec9d-4a5d-bd04-a1fbd25e98f8	Error: Not allowed by CORS	GET	/cars	http://localhost:3001
+20240423	12:24:34	7c194f93-c197-4e51-8bc0-a1909da03d47	Error: Not allowed by CORS	GET	/users	http://localhost:3001
