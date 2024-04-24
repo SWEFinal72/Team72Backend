@@ -3,7 +3,7 @@ const router = express.Router();
 const authController = require('../Controllers/authController.js');
 const loginLimiter = require('../Middleware/loginLimiter.js');
 
-router.route('/')
+router.route('/login')
     .post(loginLimiter, authController.login)
 
 router.route('/refresh')
