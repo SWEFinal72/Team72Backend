@@ -14,18 +14,34 @@
 20240314	11:24:35	54c9d935-daba-4a6b-9204-4ba11de4f665	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
 20240314	11:24:37	f0768b47-0f87-47c5-b131-9eccab7f1901	CastError: Cast to ObjectId failed for value "65f30758206debf86ab8b11" (type string) at path "user" for model "Car"	DELETE	/users	undefined
 20240318	14:24:27	fed70e47-72e1-4588-be76-16dc34c6f3cb	SyntaxError: Expected ',' or '}' after property value in JSON at position 79	POST	/users	undefined
-20240420	12:25:17	48994d1f-0482-427f-b51d-2a317def12eb	Error: Not allowed by CORS	GET	/users	http://localhost:3001
-20240420	12:26:21	d16e2418-2ef6-4da0-99fe-b87e4c04b375	Error: Not allowed by CORS	GET	/users	http://localhost:3001
-20240420	12:29:33	ec8c6b22-d360-4e90-bb97-0aea964561de	ValidationError: User validation failed: roles.0: `Manager` is not a valid enum value for path `roles.0`.	PATCH	/users	http://localhost:3001
-20240420	12:34:12	e6215c45-f271-480b-a08e-cefd183d9b89	ValidationError: User validation failed: roles.0: `Employee` is not a valid enum value for path `roles.0`.	PATCH	/users	http://localhost:3001
-20240420	15:53:13	eee34a70-0561-4d4a-b130-1ed53687dea1	SyntaxError: Expected double-quoted property name in JSON at position 412	GET	/cars	undefined
-20240420	15:55:13	8cae2f4e-8b08-4714-9eef-06bec624ff83	SyntaxError: Expected double-quoted property name in JSON at position 259	POST	/cars	undefined
-20240420	15:58:46	87071789-caa8-497e-b629-86f79106b731	TypeError: Cannot read properties of undefined (reading '0')	POST	/cars	http://localhost:3001
-20240420	15:59:31	6f79dd13-4a9f-48d6-b8b8-4c5ad628890f	TypeError: Cannot read properties of undefined (reading '0')	POST	/cars	http://localhost:3001
-20240420	17:13:07	f34e9be8-67ed-4942-9762-75870eaa39ce	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
-20240420	17:14:52	d51dbe64-b6f5-45fc-9088-9c1f669c0720	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
-20240420	17:24:00	add349f4-cf28-4160-bba9-a476ab106d4f	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
-20240420	17:27:42	c8dbded0-2ab7-46ea-99ce-a8cf7b6d8b6c	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
-20240420	17:32:49	895dbcfb-3968-4db2-9baa-9b8b50b05361	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
-20240420	17:36:20	3844086a-a8fc-4ea1-af69-2b2e00d95735	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
-20240420	18:47:35	5f02ff42-0854-4daf-b3d5-36a926b115b0	TypeError: Cannot read properties of undefined (reading 'length')	POST	/cars	http://localhost:3001
+
+20240320	16:07:31	3eff6149-0d8a-4ad2-a49d-d36cf85336e8	ObjectParameterError: Parameter "obj" to Document() must be an object, got "Honda" (type string)	POST	/cars	undefined
+20240320	16:28:07	073967f1-5ede-4652-bd55-95da5445a945	ReferenceError: model is not defined	POST	/cars	undefined
+20240320	16:33:57	797b56c8-1418-40c9-ae85-e642f8a02361	ReferenceError: brand is not defined	POST	/cars	undefined
+20240320	16:34:21	dd08be5a-0040-4e1a-999c-828a0461c9ab	ReferenceError: brand is not defined	POST	/cars	undefined
+20240325	15:27:20	94d4bf12-e75c-42f5-9b27-aed1768bf4a2	SyntaxError: Unexpected end of JSON input	GET	/cars	undefined
+20240325	15:27:42	b626c38f-0ffe-4674-a016-1db8cb877109	SyntaxError: Unexpected end of JSON input	GET	/cars	undefined
+20240325	15:29:30	7f859bda-70b4-4ae8-9fae-bf5d943de9e0	SyntaxError: Unexpected token '}', ..."Info":
+
+}
+
+
+" is not valid JSON	GET	/cars	undefined
+20240325	15:29:50	1d572758-8f3e-4033-9e48-dccdf6e34d8f	SyntaxError: Unexpected end of JSON input	GET	/cars	undefined
+20240326	20:14:53	d7027479-237f-4531-9fd2-f0387ee9314e	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:17:04	d451071d-5b60-4630-903d-036c41d0de9c	CastError: Cast to ObjectId failed for value "11" (type string) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:17:11	d70115a8-c1e8-41aa-a464-e5094fdaf991	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:24:41	5019b2b4-ecba-4a46-aa32-a3f27c3c2fbc	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:24:58	91524ed6-e748-493f-9b63-eb459bdf0262	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:26:37	1097ab56-2643-43db-80a9-77f5e3bba80b	CastError: Cast to ObjectId failed for value "11" (type number) at path "_id" for model "Car"	PATCH	/cars	undefined
+20240326	20:27:49	a157599f-8c8c-4f9d-81c8-cd512aac2084	SyntaxError: Expected ':' after property name in JSON at position 16 (line 3 column 1)	GET	/cars	undefined
+20240326	20:28:53	92941141-ac5f-4c37-9bfd-f268f342a758	ReferenceError: user is not defined	DELETE	/cars	undefined
+20240326	20:30:59	12e7db61-0c90-41be-a579-f38083796dee	ReferenceError: user is not defined	DELETE	/cars	undefined
+20240326	20:32:23	8cefc5e4-bb3e-4cdc-bb39-2e450c046c18	ReferenceError: user is not defined	DELETE	/cars	undefined
+20240326	20:35:42	45a5f91d-16e1-4f9b-99ea-80e2a83c226e	CastError: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "Car"	DELETE	/cars	undefined
+20240326	20:46:04	6324da35-4700-494c-84a1-c7e9922a666c	TypeError: car.save is not a function	PATCH	/cars	undefined
+20240326	20:46:25	bcf39b24-2fd2-4182-8198-a70e1de0c1b8	TypeError: car.save is not a function	PATCH	/cars	undefined
+20240422	16:01:32	5ddd844e-6a93-4573-9a4c-0eefedf851f6	SyntaxError: Unexpected end of JSON input	GET	/users	undefined
+20240423	12:24:17	ae71b312-aeb5-4926-bdcf-6e08edb60337	Error: Not allowed by CORS	GET	/users	http://localhost:3001
+20240423	12:24:17	cae38085-ec9d-4a5d-bd04-a1fbd25e98f8	Error: Not allowed by CORS	GET	/cars	http://localhost:3001
+20240423	12:24:34	7c194f93-c197-4e51-8bc0-a1909da03d47	Error: Not allowed by CORS	GET	/users	http://localhost:3001
