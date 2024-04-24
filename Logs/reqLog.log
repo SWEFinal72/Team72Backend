@@ -136,7 +136,6 @@
 20240318	14:24:27	81f00be2-02e4-4b8d-b988-dd3d15a38baf	POST	/users	undefined
 20240318	14:24:33	c2d1ef6e-4554-4396-9c43-8decb953cc69	POST	/users	undefined
 20240318	14:24:38	0d0dee13-234a-46f5-ab08-620937efb825	GET	/users	undefined
-<<<<<<< Updated upstream
 20240320	15:52:46	cb507b60-2e3c-432a-b498-46504223ac49	GET	/cars	undefined
 20240320	15:54:27	4d73a88e-4b44-47cb-a885-16652ecd290d	GET	/cars	undefined
 20240320	16:07:31	c3b17df4-6bfd-4607-ade7-b55424e92f00	POST	/cars	undefined
@@ -427,7 +426,6 @@
 20240423	14:57:16	e9ec565c-49bc-44c4-9f13-8262d65ed8b2	POST	/auth/login	http://localhost:3001
 20240423	15:04:00	fef9238f-f547-4de5-834e-8bf3876bbabd	OPTIONS	/auth/login	http://localhost:3001
 20240423	15:04:00	10e03795-af7a-4c57-96d0-d7085f425649	POST	/auth/login	http://localhost:3001
-=======
 20240422	16:31:14	c8900407-50a7-43a5-94d0-12124a3e7dd7	GET	/users	undefined
 20240422	16:32:49	00e2e9af-314a-4b6b-9c29-bdc176c8ee68	POST	/users	undefined
 20240422	16:32:53	80dbcefa-9daa-4ea3-8689-8cf0c7dd22d1	GET	/users	undefined
@@ -1980,7 +1978,6 @@
 20240424	14:27:37	8f77cc47-8560-4431-b1e3-a8eb3b069402	POST	/auth/login	http://localhost:3001
 20240424	14:27:50	7d8d2451-5ee1-45f4-9f69-724afc471dea	OPTIONS	/auth/login	http://localhost:3001
 20240424	14:27:50	15b789b6-1f36-4e04-aefd-1d6aeb20ed79	POST	/auth/login	http://localhost:3001
->>>>>>> Stashed changes
 20240424	14:34:12	2d21c957-547b-4a9f-8ce0-a79a1b01234d	OPTIONS	/auth/login	http://localhost:3001
 20240424	14:34:12	e9ba4e4d-615d-4d0a-9290-ad31b20af4e8	POST	/auth/login	http://localhost:3001
 20240424	14:36:24	0d854dab-ba12-4913-b3d9-f33255688fae	OPTIONS	/auth/login	http://localhost:3001

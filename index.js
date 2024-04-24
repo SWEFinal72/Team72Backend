@@ -37,8 +37,6 @@ app.use("/users", require("./routes/userRoutes.js"));
 app.use("/cars", require("./routes/carsRoutes.js"));
 
 
-
-
 //Handle 404
 app.all("*", (req, res) => {
 	res.status(404);

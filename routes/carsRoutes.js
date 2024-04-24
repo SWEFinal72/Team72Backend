@@ -4,7 +4,6 @@ const carsController = require('../Controllers/carsController.js');
 const verifyJWT = require('../Middleware/verifyJWT.js');
 
 router.use(verifyJWT);
-
 router.route('/')
 
 .get(carsController.getAllCars)
